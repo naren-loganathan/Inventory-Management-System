@@ -29,8 +29,6 @@ Conversion notes:
 
 # <p align="center">Inventory Management System</p> 
 
-<img src="images/image1.png" alt="Image" style="display: block; margin: 0 auto" />
-
 ### <p align="center">CS3120 - Database Management Systems Laboratory Course Project</p>
 
 ### Contributors
@@ -45,7 +43,9 @@ Inventory management, in our context, involves the tracking of inventory (a list
 
 To be more precise, we track invoices that are made by the storeroom to suppliers (manufacturers). We also keep tabs on orders that are made by customers to our storeroom. Payment information pertaining to these invoices and orders are also stored. Additionally, we maintain a well organized collection of products, along with the quantities that we currently have in stock. We also store relevant information about our customers and suppliers.
 
-<img src="images/image2.png" alt="Image" style="display: block; margin: 0 auto" />
+<p align ="center">
+<img src="images/image1.png"/>
+</p>
 
 ## ER Model:
 
@@ -85,7 +85,9 @@ The structure of our database (in the form of an entity - relationship model) co
 
 The resulting diagram:
 
-<img src="images/image3.png" alt="Image" style="display: block; margin: 0 auto" />
+<p align ="center">
+<img src="images/image2.png"/>
+</p>
 
 ## Relational Model:
 
@@ -676,4 +678,6 @@ SELECT product_name FROM product, category, product_category WHERE category_name
 We inserted data into our database using the commands detailed in [data_insertion.sql](data_insertion.sql).
 The category hierarchy we used for the database resembles something like the below:
 
-<img src="images/image4.png" alt="Image" style="display: block; margin: 20 auto" />
+<p align ="center">
+<img src="images/image3.png"/>
+</p>
